@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="titulo">Calculadora - IMC</h1>
+        <label for="nome">Nome: </label><input required type="text" id="nome" >
+        <br>
+        <label for="peso">Peso: </label><input riquired type="number" id="peso">
+        <br>
+        <label for="altura">Altura: </label><input type="number" id="altura"><br>
+        <button id="btn-calculo" type="btn" class="btn btn-dark btn-block" >Calcular</button>
+        <br>
+        <div id="resultado" class="result"> 
+
+        </div>
+        <br>
+        <button id="limpar" type="button" class="btn btn-dark">Reset</button>
+    </section>
+   <script src="imc.js"></script>
+</body>
+</html>
